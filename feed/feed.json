@@ -1,0 +1,22 @@
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "landocle",
+	"language": "en",
+	"home_page_url": "https://landocle.com/",
+	"feed_url": "https://landocle.com/feed/feed.json",
+	"description": "landocle&#39;s Blog",
+	"author": {
+		"name": "landocle",
+		"url": ""
+	},
+	"items": [
+		{
+			"id": "https://landocle.com/blog/hello-world/",
+			"url": "https://landocle.com/blog/hello-world/",
+			"title": "Hello, world!",
+			"content_html": "<p>Hello, world!</p>\n",
+			"date_published": "2023-07-28T00:00:00Z"
+		}
+		
+	]
+}

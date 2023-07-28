@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>landocle</title>
+	<subtitle>landocle&#39;s Blog</subtitle>
+	<link href="https://landocle.com/feed/feed.xml" rel="self"/>
+	<link href="https://landocle.com/"/>
+	<updated>2023-07-28T00:00:00Z</updated>
+	<id>https://landocle.com/</id>
+	<author>
+		<name>landocle</name>
+		<email></email>
+	</author>
+	
+	<entry>
+		<title>Hello, world!</title>
+		<link href="https://landocle.com/blog/hello-world/"/>
+		<updated>2023-07-28T00:00:00Z</updated>
+		<id>https://landocle.com/blog/hello-world/</id>
+		<content type="html">&lt;p&gt;Hello, world!&lt;/p&gt;
+</content>
+	</entry>
+</feed>
