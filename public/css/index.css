@@ -1,6 +1,25 @@
+@font-face {
+	font-family: 'Worksans';
+	src: url('/fonts/worksans/worksans.eot');
+	src: url('/fonts/worksans/worksans.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/worksans/worksans.woff') format('woff'),
+	url('/fonts/worksans/worksans.ttf') format('truetype'),
+	url('/fonts/worksans/worksans.svg#webfont') format('svg');
+}
+
+@font-face {
+	font-family: 'Reef';
+	src: url('/fonts/reef/reef.eot');
+	src: url('/fonts/reef/reef.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/reef/reef.woff') format('woff'),
+	url('/fonts/reef/reef.ttf') format('truetype'),
+	url('/fonts/reef/reef.svg#webfont') format('svg');
+}
+
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: 'Worksans', sans-serif;
+	--font-family-header: 'Reef', sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -53,6 +72,7 @@ html {
 	overflow-y: scroll;
 }
 body {
+	font-size: 1.1rem;
 	max-width: 40em;
 }
 
@@ -71,11 +91,11 @@ p:last-child {
 	margin-bottom: 0;
 }
 p {
-	line-height: 1.5;
+	line-height: 2.0;
 }
 
 li {
-	line-height: 1.5;
+	line-height: 2.0;
 }
 
 a[href] {
@@ -151,9 +171,11 @@ header {
 	padding: 1em;
 }
 .home-link {
-	font-size: 1em; /* 16px /16 */
-	font-weight: 700;
+	font-size: 2em; 
+	font-family: var(--font-family-header);
+	font-variant: small-caps;
 	margin-right: 2em;
+
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
@@ -188,6 +210,7 @@ header {
 	flex-wrap: wrap;
 	align-items: baseline;
 	counter-increment: start-from -1;
+	line-height: 1.5;
 	margin-bottom: 1em;
 }
 .postlist-item:before {

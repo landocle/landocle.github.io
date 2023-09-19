@@ -1,8 +1,8 @@
 module.exports = {
-	title: "landocle",
+	title: "landocle’s curiosities",
 	url: "https://landocle.com/",
 	language: "en",
-	description: "landocle's Blog",
+	description: "landocle’s curiosities",
 	author: {
 		name: "landocle"
 	}
