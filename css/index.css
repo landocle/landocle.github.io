@@ -8,12 +8,12 @@
 }
 
 @font-face {
-		font-family: 'Reef';
-		src: url('/fonts/reef/reef.eot');
-		src: url('/fonts/reef/reef.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/reef/reef.woff') format('woff'),
-		url('/fonts/reef/reef.ttf') format('truetype'),
-		url('/fonts/reef/reef.svg#webfont') format('svg');
+	font-family: 'Reef';
+	src: url('/fonts/reef/reef.eot');
+	src: url('/fonts/reef/reef.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/reef/reef.woff') format('woff'),
+	url('/fonts/reef/reef.ttf') format('truetype'),
+	url('/fonts/reef/reef.svg#webfont') format('svg');
 }
 
 /* Defaults */
